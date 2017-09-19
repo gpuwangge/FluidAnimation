@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{751f8fc1-436a-4d95-a5c6-96089563367b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{9cdc10fb-6ec6-4e06-8099-6ebf5d274573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{da108276-5d9f-45a0-9904-5a957230bfe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{ab331a97-148c-4f04-8092-23c6807211b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fieldsystem">
+      <UniqueIdentifier>{e6733ea6-ae88-41da-a38c-78d09084b6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matlab">
+      <UniqueIdentifier>{6d7bbe64-af71-4475-8070-6144cad54e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathutilities">
+      <UniqueIdentifier>{b6c6dd0c-7800-4f23-9d98-fa6980e1661f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print">
+      <UniqueIdentifier>{e5a3e8bc-9d9d-4ca0-9e6c-1ca3661c2f1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\glew\src\glew.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\Program.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\Shader.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="utilities\Bitmap.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\Texture.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\Camera.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="matlab\MatlabEng.cpp">
+      <Filter>matlab</Filter>
+    </ClCompile>
+    <ClCompile Include="print\Print.cpp">
+      <Filter>print</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utilities\Program.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\Shader.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\Bitmap.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\Texture.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\Camera.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="containers.h" />
+    <ClInclude Include="app.h" />
+    <ClInclude Include="cmathhelper.h" />
+    <ClInclude Include="loadassets.h" />
+    <ClInclude Include="fieldsystem\cgrid.h">
+      <Filter>fieldsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldsystem\cfieldsystem.h">
+      <Filter>fieldsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldsystem\clcs.h">
+      <Filter>fieldsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldsystem\cdisplaycontroller.h">
+      <Filter>fieldsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="matlab\MatlabEng.h">
+      <Filter>matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="mathutilities\SparseMatrix.h">
+      <Filter>mathutilities</Filter>
+    </ClInclude>
+    <ClInclude Include="mathutilities\BasicDataStructure.h">
+      <Filter>mathutilities</Filter>
+    </ClInclude>
+    <ClInclude Include="print\Print.h">
+      <Filter>print</Filter>
+    </ClInclude>
+    <ClInclude Include="print\ImageGenerator.h">
+      <Filter>print</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldsystem\cmarchingtriangle.h">
+      <Filter>fieldsystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\fragment-shader-wooden-crate.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\vertex-shader-wooden-crate.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\fragment-shader-line.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\vertex-shader-line.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\fragment-shader-triangle.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\vertex-shader-triangle.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\fragment-shader-circle.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\vertex-shader-circle.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\fragment-shader-filledtriangle.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\vertex-shader-filledtriangle.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\fragment-shader-filledrect.txt">
+      <Filter>shaders</Filter>
+    </Text>
+    <Text Include="shaders\vertex-shader-filledrect.txt">
+      <Filter>shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\hazard.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\wooden-crate.jpg">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+#version 150
+
+in vec4 fragColor;
+out vec4 finalColor;
+
+void main() {
+
+    //finalColor = vec4(pow(linearColor, gamma), surfaceColor.a);
+	finalColor = fragColor;
+}

@@ -1,0 +1,18 @@
+1. Major revision
+-More numerical tests: continuous fluid
+-Record time
+-Timing
+=Optimize inertia time
+=Combine motion and diffusion code
+=reduce fluid on bunny and test
+2. Smooth
+3. For LCS Tune parameters and record, make animation
+-Store phi
+-Tune different parameter: Read papers
+=Tune height/length
+=Use velocity data directly, no interpolation
+
+
+
+4. Monterey Bay test: http://shaddenlab.berkeley.edu/uploads/LCS-tutorial/oceancurrents.html
+Already send email to author

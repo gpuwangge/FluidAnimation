@@ -1,0 +1,29 @@
+#version 150
+
+//uniform mat4 projection;
+uniform mat4 camera;
+uniform mat4 model;
+uniform vec4 color;
+
+in vec3 vert;
+in vec2 vertTexCoord;
+in vec3 vertNormal; //Tutorial#6: Lighting
+
+out vec3 fragVert; //Tutorial#6: Lighting
+out vec2 fragTexCoord;
+out vec3 fragNormal; //Tutorial#6: Lighting
+out vec4 fragColor;
+
+void main() {
+    // does not alter the verticies at all
+	fragTexCoord = vertTexCoord;
+    fragNormal = vertNormal;
+    fragVert = vert;
+	fragColor = color;
+
+    //gl_Position = vec4(vert, 1);
+	//Apply all matrix transformations to vert
+    //gl_Position = projection * camera * model * vec4(vert, 1);
+	gl_Position =  camera * model * vec4(vert, 1);
+	
+}

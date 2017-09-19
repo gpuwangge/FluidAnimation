@@ -1,0 +1,21 @@
+
+debug:
+matlab error at step 55
+[V,D] = eigs(A, B, 1,'lm')
+
+--Error message--
+Error using eigs>WarnIfIllConditioned (line 847)
+Singular second input matrix is only supported when sigma is 'SM' or a scalar double .
+
+Error in eigs>applyAwithLUB (line 781)
+WarnIfIllConditioned(L, U, 'B', []);
+
+Error in eigs>getOps (line 713)
+        applyOP = applyAwithLUB(B, applyA, n);
+
+Error in eigs (line 100)
+[applyOP, applyM] = getOps(A, B, n, BisHpd, mode, R, cholB, permB,...
+
+
+
+
