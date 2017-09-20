@@ -1,4 +1,4 @@
 # FluidAnimation
-A fluid analysis tool that is useful fluid animation tool.
+A analysis tool that is useful in fluid dynamics.
 
 Wiki: https://en.wikipedia.org/wiki/Lagrangian_coherent_structure
